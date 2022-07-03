@@ -167,18 +167,15 @@ input, select, textarea {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
 		font-weight: 300;
-		color: #fff;
 	}
 
 		h1 strong {
 			font-weight: 700;
-			color: #fff;
 		}
 
 	h2 {
 		font-size: 2em;
 		letter-spacing: -0.015em;
-		color: rgb(3, 3, 3);
 	}
 
 	h3 {
@@ -1509,7 +1506,6 @@ input, select, textarea {
 		}
 
 
-
 /* Tables */
 
 	table {
@@ -1556,6 +1552,9 @@ input, select, textarea {
 	article:last-child {
 		margin-bottom: 0;
 	}
+	#github{
+		color: #eaaf26;
+	}
 
 /* Image */
 
@@ -1572,6 +1571,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			
+		}
+
+		#myImage{
+			border: 1px solid #000000;
 		}
 
 		.image.featured {
@@ -1923,23 +1927,16 @@ input, select, textarea {
 
 /* Wrappers */
 
-    .pro_link{
-		text-decoration: none;
-		color: #f8b92f;
-		font-weight: bold;
-	}
-
 	.wrapper {
-		background-color: #fff;
-		color: #181818;
+		background-image: url("images/pic01.jpg");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: rgb(46, 39, 56);
+			background-image: url("/images/bg.jpg");
+			background-color: #fff;
 		}
 
 		.wrapper.style2 {
@@ -2071,7 +2068,6 @@ input, select, textarea {
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
-			color: #fff;
 		}
 
 			#top p a {
@@ -2081,6 +2077,7 @@ input, select, textarea {
 	#contact footer {
 		font-size: 0.9em;
 	}
+
 
 
 /* Large */
